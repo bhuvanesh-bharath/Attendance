@@ -6,7 +6,7 @@ def calculate_attendance(total, attended):
 
 
 def full_calculator():
-    print("\n📊 Attendance Calculator (75% Rule)")
+    print("\n📊 Attendance Calculator ")
     print("----------------------------------")
 
     subjects = ["COA", "DS", "DBMS", "DELD", "ETHICS", "MATHS"]
@@ -50,7 +50,7 @@ def extra_hours_mode():
 def main():
     while True:
         print("\n==============================")
-        print("       Attendance Tool")
+        print("       Attendance Calculator")
         print("==============================")
         print("1. Full Attendance Calculator (all subjects)")
         print("2. Quick Extra Hours Needed (for <75%)")
@@ -71,3 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
